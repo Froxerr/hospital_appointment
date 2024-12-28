@@ -1,66 +1,110 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+<h1 align="center">
+  <br>
+  <a href=""><img src="https://github.com/Froxerr/online_appointment/blob/main/public/assets/img/logo.png" alt="Markdownify" width="200"></a>
+  <br>
+  ARAL Appointment
+  <br>
+</h1>
+
+<h4 align="center">Hospital Appointment Management System</h4>
+
+<div align="center">
+  <span style="display: inline-block; margin-right: 10px;">
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  </span>
+  <span style="display: inline-block; margin-right: 10px;">
+    <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  </span>
+  <span style="display: inline-block;">
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  </span>
+</div>
+
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="#key-features">Key Features</a> •
+  <a href="#role-based-features">Role-Based Features</a> •
+  <a href="#how-to-use">How To Use</a> •
 </p>
 
-## About Laravel
+<div align="center">
+  <img src="https://github.com/Froxerr/online_appointment/blob/main/public/assets/img/animation.gif" alt="Form Animation">
+</div>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<h2 id="key-features">Key Features</h2>
 
-## Learning Laravel
+- **User-Friendly Interface**: An intuitive and easy-to-use interface for both patients and doctors, ensuring smooth interactions.
+- **Appointment Scheduling**: Allows users to book, cancel, and reschedule appointments with ease.
+- **Real-Time Availability**: Displays available time slots in real-time to avoid double bookings and schedule conflicts.
+- **Admin Panel**: Provides administrators with full control over appointments, user management, and other settings.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Secure Login System**: Users can create accounts and log in securely with authentication.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Patient History**: Patients can view and manage their past appointments and medical history.
+- **Customizable Settings**: Admins can configure the system settings to match their hospital or clinic's needs.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<h2 id="role-based-features">Role-Based Features</h2>
 
-### Premium Partners
+- **Patients**: 
+  - Book, cancel, and reschedule appointments easily.
+  - View medical history and past appointments.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- **Doctors**: 
+  - View upcoming appointments and patient details.
+  - See the specific conditions and illnesses patients are seeking treatment for.
 
-## Contributing
+- **Admins**: 
+  - Full access to user management (patients, doctors, and staff).
+  - Control over appointment settings and availability.
+  - Generate reports and track system usage and appointments.
+  - Assign specific roles and permissions to users.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<h2 id="how-to-use">How To Use</h2>
 
-## Code of Conduct
+To clone and run this Laravel application, you'll need Git and Composer (for PHP dependencies) installed on your computer. From your command line:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+# Clone this repository
+$ git clone https://github.com/yourusername/your-laravel-project.git
 
-## Security Vulnerabilities
+# Go into the project directory
+$ cd your-laravel-project
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# Install PHP dependencies
+$ composer install
 
-## License
+# Copy the .env file
+$ cp .env.example .env
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Generate the application key
+$ php artisan key:generate
+
+# Set up the database (Edit .env file with your database credentials)
+# Run the migrations to create the database tables
+$ php artisan migrate
+
+# Serve the application locally
+$ php artisan serve
+
+# Install Node.js dependencies
+$ npm install
+
+# Compile the frontend assets
+$ npm run dev
+```
+
+> **Note**
+> If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+
+
+---
+
+
+> GitHub https://github.com/Froxerr &nbsp;&middot;&nbsp;
+> Linked https://www.linkedin.com/in/ibrahim-aral-99804a344
+
