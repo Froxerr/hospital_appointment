@@ -1,0 +1,152 @@
+[
+    {
+        "schedule_id": 1,
+        "doctor_id": 1,
+        "work_time_start": "2024-12-20 08:00:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 2,
+        "doctor_id": 2,
+        "work_time_start": "2024-12-20 08:30:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 3,
+        "doctor_id": 3,
+        "work_time_start": "2024-12-20 08:45:00",
+        "work_time_end": "2025-12-20 16:30:00"
+    },
+    {
+        "schedule_id": 4,
+        "doctor_id": 4,
+        "work_time_start": "2024-12-20 08:15:00",
+        "work_time_end": "2025-12-20 16:45:00"
+    },
+    {
+        "schedule_id": 5,
+        "doctor_id": 5,
+        "work_time_start": "2024-12-20 08:30:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 6,
+        "doctor_id": 6,
+        "work_time_start": "2024-12-20 08:00:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 7,
+        "doctor_id": 7,
+        "work_time_start": "2024-12-20 08:15:00",
+        "work_time_end": "2025-12-20 16:30:00"
+    },
+    {
+        "schedule_id": 8,
+        "doctor_id": 8,
+        "work_time_start": "2024-12-20 08:45:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 9,
+        "doctor_id": 9,
+        "work_time_start": "2024-12-20 08:30:00",
+        "work_time_end": "2025-12-20 16:45:00"
+    },
+    {
+        "schedule_id": 10,
+        "doctor_id": 10,
+        "work_time_start": "2024-12-20 08:00:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 11,
+        "doctor_id": 11,
+        "work_time_start": "2024-12-20 08:30:00",
+        "work_time_end": "2025-12-20 16:45:00"
+    },
+    {
+        "schedule_id": 12,
+        "doctor_id": 12,
+        "work_time_start": "2024-12-20 08:00:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 13,
+        "doctor_id": 13,
+        "work_time_start": "2024-12-20 08:45:00",
+        "work_time_end": "2025-12-20 16:30:00"
+    },
+    {
+        "schedule_id": 14,
+        "doctor_id": 14,
+        "work_time_start": "2024-12-20 08:15:00",
+        "work_time_end": "2025-12-20 16:30:00"
+    },
+    {
+        "schedule_id": 15,
+        "doctor_id": 15,
+        "work_time_start": "2024-12-20 08:30:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 16,
+        "doctor_id": 16,
+        "work_time_start": "2024-12-20 08:00:00",
+        "work_time_end": "2025-12-20 16:45:00"
+    },
+    {
+        "schedule_id": 17,
+        "doctor_id": 17,
+        "work_time_start": "2024-12-20 08:30:00",
+        "work_time_end": "2025-12-20 16:30:00"
+    },
+    {
+        "schedule_id": 18,
+        "doctor_id": 18,
+        "work_time_start": "2024-12-20 08:00:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 19,
+        "doctor_id": 19,
+        "work_time_start": "2024-12-20 08:15:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 20,
+        "doctor_id": 20,
+        "work_time_start": "2024-12-20 08:30:00",
+        "work_time_end": "2025-12-20 16:45:00"
+    },
+    {
+        "schedule_id": 21,
+        "doctor_id": 21,
+        "work_time_start": "2024-12-20 08:00:00",
+        "work_time_end": "2025-12-20 16:30:00"
+    },
+    {
+        "schedule_id": 22,
+        "doctor_id": 22,
+        "work_time_start": "2024-12-20 08:15:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 23,
+        "doctor_id": 23,
+        "work_time_start": "2024-12-20 08:45:00",
+        "work_time_end": "2025-12-20 17:00:00"
+    },
+    {
+        "schedule_id": 24,
+        "doctor_id": 24,
+        "work_time_start": "2024-12-20 08:00:00",
+        "work_time_end": "2025-12-20 16:30:00"
+    },
+    {
+        "schedule_id": 25,
+        "doctor_id": 25,
+        "work_time_start": "2024-12-20 08:30:00",
+        "work_time_end": "2025-12-20 16:45:00"
+    }
+]

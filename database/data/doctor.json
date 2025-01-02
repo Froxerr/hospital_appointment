@@ -1,0 +1,228 @@
+[
+    {
+        "doctor_id": 1,
+        "specialties_id": 1,
+        "address_id": 1,
+        "doctor_name": "Ahmet",
+        "doctor_surname": "Yılmaz",
+        "doctor_phone": "05551234567",
+        "doctor_email": "ahmet.yilmaz@example.com"
+    },
+    {
+        "doctor_id": 2,
+        "specialties_id": 2,
+        "address_id": 2,
+        "doctor_name": "Mehmet",
+        "doctor_surname": "Kara",
+        "doctor_phone": "05559874563",
+        "doctor_email": "mehmet.kara@example.com"
+    },
+    {
+        "doctor_id": 3,
+        "specialties_id": 3,
+        "address_id": 3,
+        "doctor_name": "Elif",
+        "doctor_surname": "Çelik",
+        "doctor_phone": "05558765432",
+        "doctor_email": "elif.celik@example.com"
+    },
+    {
+        "doctor_id": 4,
+        "specialties_id": 4,
+        "address_id": 4,
+        "doctor_name": "Fatma",
+        "doctor_surname": "Deniz",
+        "doctor_phone": "05552367890",
+        "doctor_email": "fatma.deniz@example.com"
+    },
+    {
+        "doctor_id": 5,
+        "specialties_id": 5,
+        "address_id": 5,
+        "doctor_name": "Ali",
+        "doctor_surname": "Yılmaz",
+        "doctor_phone": "05550123456",
+        "doctor_email": "ali.yilmaz@example.com"
+    },
+    {
+        "doctor_id": 6,
+        "specialties_id": 6,
+        "address_id": 6,
+        "doctor_name": "Zeynep",
+        "doctor_surname": "Kara",
+        "doctor_phone": "05557890321",
+        "doctor_email": "zeynep.kara@example.com"
+    },
+    {
+        "doctor_id": 7,
+        "specialties_id": 7,
+        "address_id": 7,
+        "doctor_name": "Osman",
+        "doctor_surname": "Demir",
+        "doctor_phone": "05551236789",
+        "doctor_email": "osman.demir@example.com"
+    },
+    {
+        "doctor_id": 8,
+        "specialties_id": 8,
+        "address_id": 8,
+        "doctor_name": "Ayşe",
+        "doctor_surname": "Öztürk",
+        "doctor_phone": "05556123490",
+        "doctor_email": "ayse.ozturk@example.com"
+    },
+    {
+        "doctor_id": 9,
+        "specialties_id": 9,
+        "address_id": 9,
+        "doctor_name": "Mehmet",
+        "doctor_surname": "Korkmaz",
+        "doctor_phone": "05553467891",
+        "doctor_email": "mehmet.korkmaz@example.com"
+    },
+    {
+        "doctor_id": 10,
+        "specialties_id": 10,
+        "address_id": 10,
+        "doctor_name": "İsmail",
+        "doctor_surname": "Beyaz",
+        "doctor_phone": "05554567812",
+        "doctor_email": "ismail.beyaz@example.com"
+    },
+    {
+        "doctor_id": 11,
+        "specialties_id": 11,
+        "address_id": 11,
+        "doctor_name": "Murat",
+        "doctor_surname": "Çolak",
+        "doctor_phone": "05559674521",
+        "doctor_email": "murat.colak@example.com"
+    },
+    {
+        "doctor_id": 12,
+        "specialties_id": 12,
+        "address_id": 12,
+        "doctor_name": "Gül",
+        "doctor_surname": "Toprak",
+        "doctor_phone": "05551234598",
+        "doctor_email": "gul.toprak@example.com"
+    },
+    {
+        "doctor_id": 13,
+        "specialties_id": 13,
+        "address_id": 13,
+        "doctor_name": "Hüseyin",
+        "doctor_surname": "Aydın",
+        "doctor_phone": "05554321009",
+        "doctor_email": "huseyin.aydin@example.com"
+    },
+    {
+        "doctor_id": 14,
+        "specialties_id": 14,
+        "address_id": 14,
+        "doctor_name": "Leyla",
+        "doctor_surname": "Küçük",
+        "doctor_phone": "05559874321",
+        "doctor_email": "leyla.kucuk@example.com"
+    },
+    {
+        "doctor_id": 15,
+        "specialties_id": 15,
+        "address_id": 15,
+        "doctor_name": "Kemal",
+        "doctor_surname": "Şahin",
+        "doctor_phone": "05551234567",
+        "doctor_email": "kemal.sahin@example.com"
+    },
+    {
+        "doctor_id": 16,
+        "specialties_id": 1,
+        "address_id": 16,
+        "doctor_name": "Emine",
+        "doctor_surname": "Altun",
+        "doctor_phone": "05553098765",
+        "doctor_email": "emine.altun@example.com"
+    },
+    {
+        "doctor_id": 17,
+        "specialties_id": 2,
+        "address_id": 17,
+        "doctor_name": "Selim",
+        "doctor_surname": "Polat",
+        "doctor_phone": "05552369874",
+        "doctor_email": "selim.polat@example.com"
+    },
+    {
+        "doctor_id": 18,
+        "specialties_id": 3,
+        "address_id": 18,
+        "doctor_name": "Seda",
+        "doctor_surname": "Yıldırım",
+        "doctor_phone": "05553467981",
+        "doctor_email": "seda.yildirim@example.com"
+    },
+    {
+        "doctor_id": 19,
+        "specialties_id": 4,
+        "address_id": 19,
+        "doctor_name": "Cem",
+        "doctor_surname": "Büyük",
+        "doctor_phone": "05556789012",
+        "doctor_email": "cem.buyuk@example.com"
+    },
+    {
+        "doctor_id": 20,
+        "specialties_id": 5,
+        "address_id": 20,
+        "doctor_name": "Büşra",
+        "doctor_surname": "Karaoğlu",
+        "doctor_phone": "05553344567",
+        "doctor_email": "busra.karaoglu@example.com"
+    },
+    {
+        "doctor_id": 21,
+        "specialties_id": 6,
+        "address_id": 21,
+        "doctor_name": "Aydın",
+        "doctor_surname": "Güven",
+        "doctor_phone": "05554567689",
+        "doctor_email": "aydin.guven@example.com"
+    },
+    {
+        "doctor_id": 22,
+        "specialties_id": 7,
+        "address_id": 22,
+        "doctor_name": "Gökhan",
+        "doctor_surname": "Çınar",
+        "doctor_phone": "05557689123",
+        "doctor_email": "gokhan.cinar@example.com"
+    },
+    {
+        "doctor_id": 23,
+        "specialties_id": 8,
+        "address_id": 23,
+        "doctor_name": "Beyza",
+        "doctor_surname": "Özdemir",
+        "doctor_phone": "05551234567",
+        "doctor_email": "beyza.ozdemir@example.com"
+    },
+    {
+        "doctor_id": 24,
+        "specialties_id": 9,
+        "address_id": 24,
+        "doctor_name": "Volkan",
+        "doctor_surname": "Vural",
+        "doctor_phone": "05554321098",
+        "doctor_email": "volkan.vural@example.com"
+    },
+    {
+        "doctor_id": 25,
+        "specialties_id": 10,
+        "address_id": 25,
+        "doctor_name": "Yusuf",
+        "doctor_surname": "Kök",
+        "doctor_phone": "05555678901",
+        "doctor_email": "yusuf.kok@example.com"
+    }
+
+]

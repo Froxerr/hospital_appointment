@@ -1,0 +1,142 @@
+[
+    {
+        "contact_id": 1,
+        "contact_name": "Ahmet Yılmaz",
+        "contact_email": "ahmet.yilmaz@example.com",
+        "contact_subject": "Sipariş Durumu",
+        "contact_message": "Merhaba, siparişim ne zaman kargoya verilecek?"
+    },
+    {
+        "contact_id": 2,
+        "contact_name": "Fatma Kaya",
+        "contact_email": "fatma.kaya@example.com",
+        "contact_subject": "Ürün İade",
+        "contact_message": "Aldığım ürünü iade etmek istiyorum. Ne yapmalıyım?"
+    },
+    {
+        "contact_id": 3,
+        "contact_name": "Mehmet Demir",
+        "contact_email": "mehmet.demir@example.com",
+        "contact_subject": "Hesap Sorunu",
+        "contact_message": "Hesabıma giriş yapamıyorum. Şifre sıfırlama linki çalışmıyor."
+    },
+    {
+        "contact_id": 4,
+        "contact_name": "Ayşe Çelik",
+        "contact_email": "ayse.celik@example.com",
+        "contact_subject": "Ürün Bilgisi",
+        "contact_message": "X ürünü stoklara ne zaman gelecek?"
+    },
+    {
+        "contact_id": 5,
+        "contact_name": "Mustafa Şahin",
+        "contact_email": "mustafa.sahin@example.com",
+        "contact_subject": "Kargo Takip",
+        "contact_message": "Kargomun takip numarasını öğrenebilir miyim?"
+    },
+    {
+        "contact_id": 6,
+        "contact_name": "Zeynep Aydın",
+        "contact_email": "zeynep.aydin@example.com",
+        "contact_subject": "Fiyat Hatası",
+        "contact_message": "Bir üründe farklı fiyatlar görünüyor. Doğru fiyat hangisi?"
+    },
+    {
+        "contact_id": 7,
+        "contact_name": "Ali Koç",
+        "contact_email": "ali.koc@example.com",
+        "contact_subject": "Yeni Ürün Talebi",
+        "contact_message": "Sitenize yeni model telefonlar eklemeyi düşünüyor musunuz?"
+    },
+    {
+        "contact_id": 8,
+        "contact_name": "Elif Tekin",
+        "contact_email": "elif.tekin@example.com",
+        "contact_subject": "Kampanyalar",
+        "contact_message": "Mevcut kampanyalar hakkında bilgi alabilir miyim?"
+    },
+    {
+        "contact_id": 9,
+        "contact_name": "Hüseyin Güler",
+        "contact_email": "huseyin.guler@example.com",
+        "contact_subject": "Ödeme Sorunu",
+        "contact_message": "Kredi kartım ile ödeme yaparken hata alıyorum."
+    },
+    {
+        "contact_id": 10,
+        "contact_name": "Merve Karaca",
+        "contact_email": "merve.karaca@example.com",
+        "contact_subject": "Teslimat Tarihi",
+        "contact_message": "Siparişim tahmini olarak ne zaman elime ulaşır?"
+    },
+    {
+        "contact_id": 11,
+        "contact_name": "Emre Aktaş",
+        "contact_email": "emre.aktas@example.com",
+        "contact_subject": "Ürün Karşılaştırma",
+        "contact_message": "İki model arasında kararsız kaldım. Hangisini önerirsiniz?"
+    },
+    {
+        "contact_id": 12,
+        "contact_name": "Sevil Yıldırım",
+        "contact_email": "sevil.yildirim@example.com",
+        "contact_subject": "Mağaza Adresi",
+        "contact_message": "Fiziksel mağazanız var mı? Adresi öğrenebilir miyim?"
+    },
+    {
+        "contact_id": 13,
+        "contact_name": "Eren Doğan",
+        "contact_email": "eren.dogan@example.com",
+        "contact_subject": "İndirim Kuponu",
+        "contact_message": "Elimde bir indirim kuponu var, nasıl kullanabilirim?"
+    },
+    {
+        "contact_id": 14,
+        "contact_name": "Buse Türkmen",
+        "contact_email": "buse.turkmen@example.com",
+        "contact_subject": "Stok Durumu",
+        "contact_message": "XXL beden ürün stoklarda mevcut mu?"
+    },
+    {
+        "contact_id": 15,
+        "contact_name": "Cemil Yavuz",
+        "contact_email": "cemil.yavuz@example.com",
+        "contact_subject": "Yanlış Sipariş",
+        "contact_message": "Yanlış ürün sipariş ettim, düzeltmek mümkün mü?"
+    },
+    {
+        "contact_id": 16,
+        "contact_name": "Esra Şimşek",
+        "contact_email": "esra.simsek@example.com",
+        "contact_subject": "Site Kullanımı",
+        "contact_message": "Favori ürünlerimi nasıl kaydedebilirim?"
+    },
+    {
+        "contact_id": 17,
+        "contact_name": "Halil Kaya",
+        "contact_email": "halil.kaya@example.com",
+        "contact_subject": "Garanti Şartları",
+        "contact_message": "Ürünün garanti süresi ve kapsamı nedir?"
+    },
+    {
+        "contact_id": 18,
+        "contact_name": "Seda Özdemir",
+        "contact_email": "seda.ozdemir@example.com",
+        "contact_subject": "Sipariş İptali",
+        "contact_message": "Yanlış sipariş verdim, nasıl iptal edebilirim?"
+    },
+    {
+        "contact_id": 19,
+        "contact_name": "Koray Uçar",
+        "contact_email": "koray.ucar@example.com",
+        "contact_subject": "Yedek Parça",
+        "contact_message": "Satın aldığım ürün için yedek parça mevcut mu?"
+    },
+    {
+        "contact_id": 20,
+        "contact_name": "Hande Akar",
+        "contact_email": "hande.akar@example.com",
+        "contact_subject": "Fatura Sorunu",
+        "contact_message": "Siparişime ait faturayı nasıl temin edebilirim?"
+    }
+]

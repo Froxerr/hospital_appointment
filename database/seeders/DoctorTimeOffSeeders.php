@@ -26,9 +26,10 @@ class DoctorTimeOffSeeders extends Seeder
             ]);
         }
     }
-    public function getDecode($rote): array
+    public function getDecode(string $rote): array
     {
-        $prioritiesJson = Storage::get('seeders/'.$rote.'.json');
+        $jsonPath = database_path('data/'.$rote.'.json');
+        $prioritiesJson = file_get_contents($jsonPath);
         // JSON verisini çözümleyin, diziler olarak almak için ikinci parametreyi true yapın
         $decodedData = json_decode($prioritiesJson);
 

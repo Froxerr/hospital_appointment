@@ -1,0 +1,27 @@
+[
+    {
+        "insurance_type_id": 1,
+        "insurance_date_start": "2024-01-01 00:00:00",
+        "insurance_date_end": "2025-01-01 00:00:00"
+    },
+    {
+        "insurance_type_id": 2,
+        "insurance_date_start": "2024-03-15 00:00:00",
+        "insurance_date_end": "2025-03-15 00:00:00"
+    },
+    {
+        "insurance_type_id": 3,
+        "insurance_date_start": "2024-06-01 00:00:00",
+        "insurance_date_end": "2025-06-01 00:00:00"
+    },
+    {
+        "insurance_type_id": 4,
+        "insurance_date_start": "2024-09-10 00:00:00",
+        "insurance_date_end": "2025-09-10 00:00:00"
+    },
+    {
+        "insurance_type_id": 5,
+        "insurance_date_start": "2024-11-25 00:00:00",
+        "insurance_date_end": "2025-11-25 00:00:00"
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "address_id": 1,
+        "address_name": "Florence Nightingale Hastanesi",
+        "address_district_id": 1,
+        "address_neighborhood": "Beşiktaş Mahallesi",
+        "address_zip": "34349"
+    },
+    {
+        "address_id": 2,
+        "address_name": "Hacettepe Tıp Fakültesi Hastanesi",
+        "address_district_id": 2,
+        "address_neighborhood": "Sıhhiye Mahallesi",
+        "address_zip": "06410"
+    },
+    {
+        "address_id": 3,
+        "address_name": "Ege Üniversitesi Hastanesi",
+        "address_district_id": 3,
+        "address_neighborhood": "Bornova Mahallesi",
+        "address_zip": "35100"
+    },
+    {
+        "address_id": 4,
+        "address_name": "Uludağ Üniversitesi Tıp Fakültesi Hastanesi",
+        "address_district_id": 4,
+        "address_neighborhood": "Görükle Mahallesi",
+        "address_zip": "16059"
+    },
+    {
+        "address_id": 5,
+        "address_name": "Antalya Eğitim ve Araştırma Hastanesi",
+        "address_district_id": 5,
+        "address_neighborhood": "Muratpaşa Mahallesi",
+        "address_zip": "07010"
+    },
+    {
+        "address_id": 6,
+        "address_name": "Selçuk Üniversitesi Tıp Fakültesi Hastanesi",
+        "address_district_id": 6,
+        "address_neighborhood": "Selçuklu Mahallesi",
+        "address_zip": "42100"
+    },
+    {
+        "address_id": 7,
+        "address_name": "Adana Şehir Hastanesi",
+        "address_district_id": 7,
+        "address_neighborhood": "Çukurova Mahallesi",
+        "address_zip": "01330"
+    },
+    {
+        "address_id": 8,
+        "address_name": "Karadeniz Teknik Üniversitesi Farabi Hastanesi",
+        "address_district_id": 8,
+        "address_neighborhood": "Ortahisar Mahallesi",
+        "address_zip": "61080"
+    },
+    {
+        "address_id": 9,
+        "address_name": "Eskişehir Şehir Hastanesi",
+        "address_district_id": 9,
+        "address_neighborhood": "Odunpazarı Mahallesi",
+        "address_zip": "26100"
+    },
+    {
+        "address_id": 10,
+        "address_name": "Erciyes Üniversitesi Tıp Fakültesi Hastanesi",
+        "address_district_id": 10,
+        "address_neighborhood": "Talas Mahallesi",
+        "address_zip": "38039"
+    },
+    {
+        "address_id": 11,
+        "address_name": "Mersin Şehir Hastanesi",
+        "address_district_id": 11,
+        "address_neighborhood": "Yenişehir Mahallesi",
+        "address_zip": "33100"
+    },
+    {
+        "address_id": 12,
+        "address_name": "Gaziantep Üniversitesi Hastanesi",
+        "address_district_id": 12,
+        "address_neighborhood": "Şahinbey Mahallesi",
+        "address_zip": "27090"
+    },
+    {
+        "address_id": 13,
+        "address_name": "Şanlıurfa Eğitim ve Araştırma Hastanesi",
+        "address_district_id": 13,
+        "address_neighborhood": "Eyyübiye Mahallesi",
+        "address_zip": "63200"
+    },
+    {
+        "address_id": 14,
+        "address_name": "Dicle Üniversitesi Tıp Fakültesi Hastanesi",
+        "address_district_id": 14,
+        "address_neighborhood": "Sur Mahallesi",
+        "address_zip": "21000"
+    },
+    {
+        "address_id": 15,
+        "address_name": "Samsun Eğitim ve Araştırma Hastanesi",
+        "address_district_id": 15,
+        "address_neighborhood": "Atakum Mahallesi",
+        "address_zip": "55200"
+    },
+    {
+        "address_id": 16,
+        "address_name": "Van Bölge Eğitim ve Araştırma Hastanesi",
+        "address_district_id": 16,
+        "address_neighborhood": "İpekyolu Mahallesi",
+        "address_zip": "65100"
+    },
+    {
+        "address_id": 17,
+        "address_name": "Balıkesir Üniversitesi Hastanesi",
+        "address_district_id": 17,
+        "address_neighborhood": "Altıeylül Mahallesi",
+        "address_zip": "10100"
+    },
+    {
+        "address_id": 18,
+        "address_name": "Kocaeli Üniversitesi Hastanesi",
+        "address_district_id": 18,
+        "address_neighborhood": "İzmit Mahallesi",
+        "address_zip": "41100"
+    },
+    {
+        "address_id": 19,
+        "address_name": "Hatay Şehir Hastanesi",
+        "address_district_id": 19,
+        "address_neighborhood": "Antakya Mahallesi",
+        "address_zip": "31000"
+    },
+    {
+        "address_id": 20,
+        "address_name": "Manisa Celal Bayar Üniversitesi Hastanesi",
+        "address_district_id": 20,
+        "address_neighborhood": "Yunusemre Mahallesi",
+        "address_zip": "45030"
+    },
+    {
+        "address_id": 21,
+        "address_name": "Aydın Devlet Hastanesi",
+        "address_district_id": 21,
+        "address_neighborhood": "Efeler Mahallesi",
+        "address_zip": "09100"
+    },
+    {
+        "address_id": 22,
+        "address_name": "Denizli Devlet Hastanesi",
+        "address_district_id": 22,
+        "address_neighborhood": "Merkezefendi Mahallesi",
+        "address_zip": "20100"
+    },
+    {
+        "address_id": 23,
+        "address_name": "Tekirdağ Şehir Hastanesi",
+        "address_district_id": 23,
+        "address_neighborhood": "Süleymanpaşa Mahallesi",
+        "address_zip": "59000"
+    },
+    {
+        "address_id": 24,
+        "address_name": "Malatya Eğitim ve Araştırma Hastanesi",
+        "address_district_id": 24,
+        "address_neighborhood": "Yeşilyurt Mahallesi",
+        "address_zip": "44050"
+    },
+    {
+        "address_id": 25,
+        "address_name": "Erzurum Bölge Eğitim ve Araştırma Hastanesi",
+        "address_district_id": 25,
+        "address_neighborhood": "Yakutiye Mahallesi",
+        "address_zip": "25000"
+    },
+    {
+        "address_id": 26,
+        "address_name": "Cumhuriyet Üniversitesi Hastanesi",
+        "address_district_id": 26,
+        "address_neighborhood": "Merkez Mahallesi",
+        "address_zip": "58040"
+    },
+    {
+        "address_id": 27,
+        "address_name": "Ordu Devlet Hastanesi",
+        "address_district_id": 27,
+        "address_neighborhood": "Altınordu Mahallesi",
+        "address_zip": "52000"
+    },
+    {
+        "address_id": 28,
+        "address_name": "Afyonkarahisar Devlet Hastanesi",
+        "address_district_id": 28,
+        "address_neighborhood": "Dumlupınar Mahallesi",
+        "address_zip": "03030"
+    },
+    {
+        "address_id": 29,
+        "address_name": "Kahramanmaraş Şehir Hastanesi",
+        "address_district_id": 29,
+        "address_neighborhood": "Onikişubat Mahallesi",
+        "address_zip": "46050"
+    },
+    {
+        "address_id": 30,
+        "address_name": "Fırat Üniversitesi Hastanesi",
+        "address_district_id": 30,
+        "address_neighborhood": "Merkez Mahallesi",
+        "address_zip": "23100"
+    }
+]

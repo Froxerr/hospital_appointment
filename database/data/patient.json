@@ -1,0 +1,236 @@
+[
+    {
+        "patients_id": 1,
+        "patients_insurances_id": 5,
+        "patients_name": "Ahmet",
+        "patients_surname": "Yılmaz",
+        "patients_phone": "05321234567",
+        "patients_gender": "E",
+        "patients_email": "ahmet.yilmaz@gmail.com"
+    },
+    {
+        "patients_id": 2,
+        "patients_insurances_id": 3,
+        "patients_name": "Elif",
+        "patients_surname": "Demir",
+        "patients_phone": "05431234567",
+        "patients_gender": "K",
+        "patients_email": "elif.demir@gmail.com"
+    },
+    {
+        "patients_id": 3,
+        "patients_insurances_id": 4,
+        "patients_name": "Mehmet",
+        "patients_surname": "Kaya",
+        "patients_phone": "05551234567",
+        "patients_gender": "E",
+        "patients_email": "mehmet.kaya@gmail.com"
+    },
+    {
+        "patients_id": 4,
+        "patients_insurances_id": 2,
+        "patients_name": "Ayşe",
+        "patients_surname": "Çelik",
+        "patients_phone": "05331234567",
+        "patients_gender": "K",
+        "patients_email": "ayse.celik@gmail.com"
+    },
+    {
+        "patients_id": 5,
+        "patients_insurances_id": 1,
+        "patients_name": "Fatma",
+        "patients_surname": "Şahin",
+        "patients_phone": "05341234567",
+        "patients_gender": "K",
+        "patients_email": "fatma.sahin@gmail.com"
+    },
+    {
+        "patients_id": 6,
+        "patients_insurances_id": 5,
+        "patients_name": "Burak",
+        "patients_surname": "Aydın",
+        "patients_phone": "05351234567",
+        "patients_gender": "E",
+        "patients_email": "burak.aydin@gmail.com"
+    },
+    {
+        "patients_id": 7,
+        "patients_insurances_id": 2,
+        "patients_name": "Selin",
+        "patients_surname": "Gül",
+        "patients_phone": "05451234567",
+        "patients_gender": "K",
+        "patients_email": "selin.gul@gmail.com"
+    },
+    {
+        "patients_id": 8,
+        "patients_insurances_id": 4,
+        "patients_name": "Kerem",
+        "patients_surname": "Yıldız",
+        "patients_phone": "05361234567",
+        "patients_gender": "E",
+        "patients_email": "kerem.yildiz@gmail.com"
+    },
+    {
+        "patients_id": 9,
+        "patients_insurances_id": 5,
+        "patients_name": "Esra",
+        "patients_surname": "Polat",
+        "patients_phone": "05461234567",
+        "patients_gender": "K",
+        "patients_email": "esra.polat@gmail.com"
+    },
+    {
+        "patients_id": 10,
+        "patients_insurances_id": 3,
+        "patients_name": "Murat",
+        "patients_surname": "Koç",
+        "patients_phone": "05371234567",
+        "patients_gender": "E",
+        "patients_email": "murat.koc@gmail.com"
+    },
+    {
+        "patients_id": 11,
+        "patients_insurances_id": 5,
+        "patients_name": "Ceren",
+        "patients_surname": "Arslan",
+        "patients_phone": "05471234567",
+        "patients_gender": "K",
+        "patients_email": "ceren.arslan@gmail.com"
+    },
+    {
+        "patients_id": 12,
+        "patients_insurances_id": 2,
+        "patients_name": "Deniz",
+        "patients_surname": "Tekin",
+        "patients_phone": "05381234567",
+        "patients_gender": "E",
+        "patients_email": "deniz.tekin@gmail.com"
+    },
+    {
+        "patients_id": 13,
+        "patients_insurances_id": 4,
+        "patients_name": "Sinem",
+        "patients_surname": "Eren",
+        "patients_phone": "05481234567",
+        "patients_gender": "K",
+        "patients_email": "sinem.eren@gmail.com"
+    },
+    {
+        "patients_id": 14,
+        "patients_insurances_id": 5,
+        "patients_name": "Hakan",
+        "patients_surname": "Tan",
+        "patients_phone": "05391234567",
+        "patients_gender": "E",
+        "patients_email": "hakan.tan@gmail.com"
+    },
+    {
+        "patients_id": 15,
+        "patients_insurances_id": 1,
+        "patients_name": "Ezgi",
+        "patients_surname": "Işık",
+        "patients_phone": "05491234567",
+        "patients_gender": "K",
+        "patients_email": "ezgi.isik@gmail.com"
+    },
+    {
+        "patients_id": 16,
+        "patients_insurances_id": 3,
+        "patients_name": "Emre",
+        "patients_surname": "Bulut",
+        "patients_phone": "05301234567",
+        "patients_gender": "E",
+        "patients_email": "emre.bulut@gmail.com"
+    },
+    {
+        "patients_id": 17,
+        "patients_insurances_id": 3,
+        "patients_name": "Zeynep",
+        "patients_surname": "Çakır",
+        "patients_phone": "05401234567",
+        "patients_gender": "K",
+        "patients_email": "zeynep.cakir@gmail.com"
+    },
+    {
+        "patients_id": 18,
+        "patients_insurances_id": 4,
+        "patients_name": "Oğuz",
+        "patients_surname": "Bozkurt",
+        "patients_phone": "05311234567",
+        "patients_gender": "E",
+        "patients_email": "oguz.bozkurt@gmail.com"
+    },
+    {
+        "patients_id": 19,
+        "patients_insurances_id": 2,
+        "patients_name": "Melis",
+        "patients_surname": "Kurt",
+        "patients_phone": "05411234567",
+        "patients_gender": "K",
+        "patients_email": "melis.kurt@gmail.com"
+    },
+    {
+        "patients_id": 20,
+        "patients_insurances_id": 1,
+        "patients_name": "Efe",
+        "patients_surname": "Korkmaz",
+        "patients_phone": "05321234567",
+        "patients_gender": "E",
+        "patients_email": "efe.korkmaz@gmail.com"
+    },
+    {
+        "patients_id": 21,
+        "patients_insurances_id": 5,
+        "patients_name": "Büşra",
+        "patients_surname": "Demirel",
+        "patients_phone": "05421234567",
+        "patients_gender": "K",
+        "patients_email": "busra.demirel@gmail.com"
+    },
+    {
+        "patients_id": 22,
+        "patients_insurances_id": 1,
+        "patients_name": "Alper",
+        "patients_surname": "Erdoğan",
+        "patients_phone": "05331234567",
+        "patients_gender": "E",
+        "patients_email": "alper.erdogan@gmail.com"
+    },
+    {
+        "patients_id": 23,
+        "patients_insurances_id": 2,
+        "patients_name": "Zeynep",
+        "patients_surname": "Turan",
+        "patients_phone": "05431234567",
+        "patients_gender": "K",
+        "patients_email": "zeynep.turan@gmail.com"
+    },
+    {
+        "patients_id": 24,
+        "patients_insurances_id": 1,
+        "patients_name": "Serkan",
+        "patients_surname": "Aslan",
+        "patients_phone": "05371234567",
+        "patients_gender": "E",
+        "patients_email": "serkan.aslan@gmail.com"
+    },
+    {
+        "patients_id": 25,
+        "patients_insurances_id": 5,
+        "patients_name": "Cemre",
+        "patients_surname": "Kaya",
+        "patients_phone": "05451234567",
+        "patients_gender": "K",
+        "patients_email": "cemre.kaya@gmail.com"
+    },
+    {
+        "patients_id": 26,
+        "patients_insurances_id": 3,
+        "patients_name": "Tolga",
+        "patients_surname": "Şimşek",
+        "patients_phone": "05381234567",
+        "patients_gender": "E",
+        "patients_email": "tolga.simsek@gmail.com"
+    }
+]

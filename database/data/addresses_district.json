@@ -1,0 +1,41 @@
+[
+    { "district_id": 1, "district_name": "Kadıköy", "city_id": 1 },
+    { "district_id": 2, "district_name": "Beşiktaş", "city_id": 1 },
+    { "district_id": 3, "district_name": "Üsküdar", "city_id": 1 },
+
+    { "district_id": 4, "district_name": "Çankaya", "city_id": 2 },
+    { "district_id": 5, "district_name": "Keçiören", "city_id": 2 },
+    { "district_id": 6, "district_name": "Yenimahalle", "city_id": 2 },
+
+    { "district_id": 7, "district_name": "Konak", "city_id": 3 },
+    { "district_id": 8, "district_name": "Bornova", "city_id": 3 },
+    { "district_id": 9, "district_name": "Buca", "city_id": 3 },
+
+    { "district_id": 10, "district_name": "Osmangazi", "city_id": 4 },
+    { "district_id": 11, "district_name": "Yıldırım", "city_id": 4 },
+    { "district_id": 12, "district_name": "Nilüfer", "city_id": 4 },
+
+    { "district_id": 13, "district_name": "Muratpaşa", "city_id": 5 },
+    { "district_id": 14, "district_name": "Kepez", "city_id": 5 },
+    { "district_id": 15, "district_name": "Alanya", "city_id": 5 },
+
+    { "district_id": 16, "district_name": "Selçuklu", "city_id": 6 },
+    { "district_id": 17, "district_name": "Karatay", "city_id": 6 },
+    { "district_id": 18, "district_name": "Meram", "city_id": 6 },
+
+    { "district_id": 19, "district_name": "Seyhan", "city_id": 7 },
+    { "district_id": 20, "district_name": "Yüreğir", "city_id": 7 },
+    { "district_id": 21, "district_name": "Çukurova", "city_id": 7 },
+
+    { "district_id": 22, "district_name": "Ortahisar", "city_id": 8 },
+    { "district_id": 23, "district_name": "Akçaabat", "city_id": 8 },
+    { "district_id": 24, "district_name": "Araklı", "city_id": 8 },
+
+    { "district_id": 25, "district_name": "Odunpazarı", "city_id": 9 },
+    { "district_id": 26, "district_name": "Tepebaşı", "city_id": 9 },
+    { "district_id": 27, "district_name": "Sivrihisar", "city_id": 9 },
+
+    { "district_id": 28, "district_name": "Melikgazi", "city_id": 10 },
+    { "district_id": 29, "district_name": "Kocasinan", "city_id": 10 },
+    { "district_id": 30, "district_name": "Talas", "city_id": 10 }
+]

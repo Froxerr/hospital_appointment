@@ -1,0 +1,27 @@
+[
+    {
+        "page_id": 1,
+        "page_name": "Anasayfa",
+        "page_hash": "main"
+    },
+    {
+        "page_id": 2,
+        "page_name": "Hakkımızda",
+        "page_hash": "about"
+    },
+    {
+        "page_id": 3,
+        "page_name": "Servislerimiz",
+        "page_hash": "services"
+    },
+    {
+        "page_id": 4,
+        "page_name": "Doktorlarımız",
+        "page_hash": "doctors"
+    },
+    {
+        "page_id": 5,
+        "page_name": "İletişim",
+        "page_hash": "contact"
+    }
+]

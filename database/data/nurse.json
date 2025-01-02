@@ -1,0 +1,202 @@
+[
+    {
+        "nurses_id": 1,
+        "nurses_name": "Ayşe",
+        "nurses_surname": "Yılmaz",
+        "nurses_phone": "05321234567",
+        "nurses_email": "ayse.yilmaz@example.com",
+        "nurses_position": "Bölüm Hemşiresi"
+    },
+    {
+        "nurses_id": 2,
+        "nurses_name": "Fatma",
+        "nurses_surname": "Demir",
+        "nurses_phone": "05322345678",
+        "nurses_email": "fatma.demir@example.com",
+        "nurses_position": "Anestezi Hemşiresi"
+    },
+    {
+        "nurses_id": 3,
+        "nurses_name": "Mehmet",
+        "nurses_surname": "Kaya",
+        "nurses_phone": "05323456789",
+        "nurses_email": "mehmet.kaya@example.com",
+        "nurses_position": "İç Hastalıkları Hemşiresi"
+    },
+    {
+        "nurses_id": 4,
+        "nurses_name": "Zeynep",
+        "nurses_surname": "Özdemir",
+        "nurses_phone": "05324567890",
+        "nurses_email": "zeynep.ozdemir@example.com",
+        "nurses_position": "Pediatri Hemşiresi"
+    },
+    {
+        "nurses_id": 5,
+        "nurses_name": "Ahmet",
+        "nurses_surname": "Şahin",
+        "nurses_phone": "05325678901",
+        "nurses_email": "ahmet.sahin@example.com",
+        "nurses_position": "Cerrahi Hemşiresi"
+    },
+    {
+        "nurses_id": 6,
+        "nurses_name": "Emine",
+        "nurses_surname": "Altun",
+        "nurses_phone": "05326789012",
+        "nurses_email": "emine.altun@example.com",
+        "nurses_position": "Genel Hemşire"
+    },
+    {
+        "nurses_id": 7,
+        "nurses_name": "Selin",
+        "nurses_surname": "Gül",
+        "nurses_phone": "05327890123",
+        "nurses_email": "selin.gul@example.com",
+        "nurses_position": "Yoğun Bakım Hemşiresi"
+    },
+    {
+        "nurses_id": 8,
+        "nurses_name": "Murat",
+        "nurses_surname": "Büyük",
+        "nurses_phone": "05328901234",
+        "nurses_email": "murat.buyuk@example.com",
+        "nurses_position": "Palyatif Bakım Hemşiresi"
+    },
+    {
+        "nurses_id": 9,
+        "nurses_name": "Hülya",
+        "nurses_surname": "Kurt",
+        "nurses_phone": "05329012345",
+        "nurses_email": "hulya.kurt@example.com",
+        "nurses_position": "İç Hastalıkları Hemşiresi"
+    },
+    {
+        "nurses_id": 10,
+        "nurses_name": "Mehmet",
+        "nurses_surname": "Demirci",
+        "nurses_phone": "05330123456",
+        "nurses_email": "mehmet.demirci@example.com",
+        "nurses_position": "Kalp Hemşiresi"
+    },
+    {
+        "nurses_id": 11,
+        "nurses_name": "Serkan",
+        "nurses_surname": "Ersoy",
+        "nurses_phone": "05331234567",
+        "nurses_email": "serkan.ersoy@example.com",
+        "nurses_position": "Kadın Doğum Hemşiresi"
+    },
+    {
+        "nurses_id": 12,
+        "nurses_name": "Ayhan",
+        "nurses_surname": "Kavak",
+        "nurses_phone": "05332345678",
+        "nurses_email": "ayhan.kavak@example.com",
+        "nurses_position": "Ameliyat Hemşiresi"
+    },
+    {
+        "nurses_id": 13,
+        "nurses_name": "Cemre",
+        "nurses_surname": "Tan",
+        "nurses_phone": "05333456789",
+        "nurses_email": "cemre.tan@example.com",
+        "nurses_position": "Neonatal Hemşiresi"
+    },
+    {
+        "nurses_id": 14,
+        "nurses_name": "Ali",
+        "nurses_surname": "Erdem",
+        "nurses_phone": "05334567890",
+        "nurses_email": "ali.erdem@example.com",
+        "nurses_position": "İç Hastalıkları Hemşiresi"
+    },
+    {
+        "nurses_id": 15,
+        "nurses_name": "Aylin",
+        "nurses_surname": "Vural",
+        "nurses_phone": "05335678901",
+        "nurses_email": "aylin.vural@example.com",
+        "nurses_position": "Kardiyoloji Hemşiresi"
+    },
+    {
+        "nurses_id": 16,
+        "nurses_name": "Burak",
+        "nurses_surname": "Çelik",
+        "nurses_phone": "05336789012",
+        "nurses_email": "burak.celik@example.com",
+        "nurses_position": "Ortopedi Hemşiresi"
+    },
+    {
+        "nurses_id": 17,
+        "nurses_name": "Seda",
+        "nurses_surname": "Yazıcı",
+        "nurses_phone": "05337890123",
+        "nurses_email": "seda.yazici@example.com",
+        "nurses_position": "Yataklı Servis Hemşiresi"
+    },
+    {
+        "nurses_id": 18,
+        "nurses_name": "Gökhan",
+        "nurses_surname": "Koca",
+        "nurses_phone": "05338901234",
+        "nurses_email": "gokhan.koca@example.com",
+        "nurses_position": "Ameliyat Hemşiresi"
+    },
+    {
+        "nurses_id": 19,
+        "nurses_name": "Duygu",
+        "nurses_surname": "Duru",
+        "nurses_phone": "05339012345",
+        "nurses_email": "duygu.duru@example.com",
+        "nurses_position": "Psikiyatri Hemşiresi"
+    },
+    {
+        "nurses_id": 20,
+        "nurses_name": "Kenan",
+        "nurses_surname": "Süzer",
+        "nurses_phone": "05340123456",
+        "nurses_email": "kenan.suzer@example.com",
+        "nurses_position": "Çocuk Hemşiresi"
+    },
+    {
+        "nurses_id": 21,
+        "nurses_name": "Burcu",
+        "nurses_surname": "Kara",
+        "nurses_phone": "05341234567",
+        "nurses_email": "burcu.kara@example.com",
+        "nurses_position": "Yoğun Bakım Hemşiresi"
+    },
+    {
+        "nurses_id": 22,
+        "nurses_name": "Meltem",
+        "nurses_surname": "Ege",
+        "nurses_phone": "05342345678",
+        "nurses_email": "meltem.ege@example.com",
+        "nurses_position": "Kadın Hastalıkları Hemşiresi"
+    },
+    {
+        "nurses_id": 23,
+        "nurses_name": "Tolga",
+        "nurses_surname": "Aydın",
+        "nurses_phone": "05343456789",
+        "nurses_email": "tolga.aydin@example.com",
+        "nurses_position": "Göz Hastalıkları Hemşiresi"
+    },
+    {
+        "nurses_id": 24,
+        "nurses_name": "Funda",
+        "nurses_surname": "Balcı",
+        "nurses_phone": "05344567890",
+        "nurses_email": "funda.balci@example.com",
+        "nurses_position": "Gastroenteroloji Hemşiresi"
+    },
+    {
+        "nurses_id": 25,
+        "nurses_name": "Hakan",
+        "nurses_surname": "Gündüz",
+        "nurses_phone": "05345678901",
+        "nurses_email": "hakan.gunduz@example.com",
+        "nurses_position": "Nöroloji Hemşiresi"
+    }
+]

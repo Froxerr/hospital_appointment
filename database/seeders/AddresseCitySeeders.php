@@ -31,27 +31,18 @@ class AddresseCitySeeders extends Seeder
     // public void deneme()
     // public int deneme()
     // işte buradaki void ve int döndürme tipini phpde de : array olarak veriyoruz
-    public function getDecode(string $rote): array //tekrar tekrar aynı şeyi 50 defa kullanacağımız için bir fonksiyon oluşturdum
+    public function getDecode(string $rote): array
     {
-        $prioritiesJson = Storage::get('seeders/'.$rote.'.json'); //Storage adlı bir class bu class bizim sol klasörlerden
-        //storage adlı dosyanın alt klasörlerine bakıyor
-        //seeders diye bir klasör oluşturdum onun içindeki gelen rote(adsasdas) adsasdas.json ekliyor ve değeri otomatik alıyor
-
+        $jsonPath = database_path('data/'.$rote.'.json');
+        $prioritiesJson = file_get_contents($jsonPath);
         // JSON verisini çözümleyin, diziler olarak almak için ikinci parametreyi true yapın
         $decodedData = json_decode($prioritiesJson);
-        //eğer 2. değeri true olarak verirsen değerler dizi halinde dönecek sana obje halinde değil
-        //dizi ile obje arasındaki fark
-        //dizi de ad["ibrahim"] | ad[2] tarzında bildiğin dizi de eriştiğin şekilde erişiyorsun
-        //obje de ise -> ile ulaşıyorsun ad->ibrahim | ad->2 tarzında bir kullanıma sahip değil aslında objelerde indiks sistemi yok [0] muhabbeti
-        //[0] dediğim de ["elma","armut","meyve"]
-        // [0] dediğim de mesela elma gelecek işte o muhabbet
 
-
-        // JSON hatasını kontrol et | json kontrol dosyası bu da eğer hata verirse kontrol etsin diye
+        // JSON hatasını kontrol et
         if (json_last_error() !== JSON_ERROR_NONE) {
             throw new \Exception('JSON çözümleme hatası: ' . json_last_error_msg());
         }
 
-        return $decodedData; //en sonunda tüm verileri bize geri döndürüyor
+        return $decodedData;
     }
 }

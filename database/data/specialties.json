@@ -1,0 +1,62 @@
+    [
+        {
+            "specialty_id": 1,
+            "specialty_name": "Kardiyoloji"
+        },
+        {
+            "specialty_id": 2,
+            "specialty_name": "Nöroloji"
+        },
+        {
+            "specialty_id": 3,
+            "specialty_name": "Dermatoloji"
+        },
+        {
+            "specialty_id": 4,
+            "specialty_name": "Pediatri"
+        },
+        {
+            "specialty_id": 5,
+            "specialty_name": "Ortopedi"
+        },
+        {
+            "specialty_id": 6,
+            "specialty_name": "Dahiliye"
+        },
+        {
+            "specialty_id": 7,
+            "specialty_name": "Kadın Hastalıkları ve Doğum"
+        },
+        {
+            "specialty_id": 8,
+            "specialty_name": "Gastroenteroloji"
+        },
+        {
+            "specialty_id": 9,
+            "specialty_name": "Psikiyatri"
+        },
+        {
+            "specialty_id": 10,
+            "specialty_name": "Göz Hastalıkları"
+        },
+        {
+            "specialty_id": 11,
+            "specialty_name": "Kulak Burun Boğaz"
+        },
+        {
+            "specialty_id": 12,
+            "specialty_name": "Üroloji"
+        },
+        {
+            "specialty_id": 13,
+            "specialty_name": "Genel Cerrahi"
+        },
+        {
+            "specialty_id": 14,
+            "specialty_name": "Endokrinoloji"
+        },
+        {
+            "specialty_id": 15,
+            "specialty_name": "Ağız ve Diş Sağlığı"
+        }
+    ]

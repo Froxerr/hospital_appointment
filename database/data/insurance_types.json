@@ -1,0 +1,22 @@
+[
+    {
+        "insurance_type_id": 1,
+        "insurance_type_name": "Sigortam Yok"
+    },
+    {
+        "insurance_type_id": 2,
+        "insurance_type_name": "Kişisel Sigorta"
+    },
+    {
+        "insurance_type_id": 3,
+        "insurance_type_name": "Özel Sigorta"
+    },
+    {
+        "insurance_type_id": 4,
+        "insurance_type_name": "Sağlık Sigortası"
+    },
+    {
+        "insurance_type_id": 5,
+        "insurance_type_name": "Bireysel Emeklilik Sigortası"
+    }
+]

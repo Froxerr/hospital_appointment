@@ -1,0 +1,162 @@
+[
+    {
+        "user_id": 1,
+        "log_date": "2024-12-15 10:00:00",
+        "log_description": "Kullanıcı başarıyla giriş yaptı.",
+        "user_name": "Ahmet Yılmaz",
+        "user_email": "ahmet.yilmaz@example.com",
+        "ip_address": "192.168.1.1"
+    },
+    {
+        "user_id": 2,
+        "log_date": "2024-12-14 14:30:00",
+        "log_description": "Kullanıcı şifresini başarıyla güncelledi.",
+        "user_name": "Mehmet Kaya",
+        "user_email": "mehmet.kaya@example.com",
+        "ip_address": "192.168.1.2"
+    },
+    {
+        "user_id": 3,
+        "log_date": "2024-12-13 09:00:00",
+        "log_description": "Kullanıcı çıkış yaptı.",
+        "user_name": "Ayşe Demir",
+        "user_email": "ayse.demir@example.com",
+        "ip_address": "192.168.1.3"
+    },
+    {
+        "user_id": 4,
+        "log_date": "2024-12-12 11:00:00",
+        "log_description": "Kullanıcı profil bilgilerini güncelledi.",
+        "user_name": "Fatma Çelik",
+        "user_email": "fatma.celik@example.com",
+        "ip_address": "192.168.1.4"
+    },
+    {
+        "user_id": 5,
+        "log_date": "2024-12-10 15:30:00",
+        "log_description": "Kullanıcı şifresini değiştirdi.",
+        "user_name": "Ali Özdemir",
+        "user_email": "ali.ozdemir@example.com",
+        "ip_address": "192.168.1.5"
+    },
+    {
+        "user_id": 6,
+        "log_date": "2024-12-09 08:15:00",
+        "log_description": "Kullanıcı yeni bir cihazdan giriş yaptı.",
+        "user_name": "Zeynep Güler",
+        "user_email": "zeynep.guler@example.com",
+        "ip_address": "192.168.1.6"
+    },
+    {
+        "user_id": 7,
+        "log_date": "2024-12-08 16:30:00",
+        "log_description": "Kullanıcı iletişim bilgilerini güncelledi.",
+        "user_name": "İsmail Kurtuluş",
+        "user_email": "ismail.kurtulus@example.com",
+        "ip_address": "192.168.1.7"
+    },
+    {
+        "user_id": 8,
+        "log_date": "2024-12-06 13:00:00",
+        "log_description": "Kullanıcı başarıyla giriş yaptı.",
+        "user_name": "Emine Dönmez",
+        "user_email": "emine.donmez@example.com",
+        "ip_address": "192.168.1.8"
+    },
+    {
+        "user_id": 9,
+        "log_date": "2024-12-05 18:45:00",
+        "log_description": "Kullanıcı şifre sıfırlama talebi başlattı.",
+        "user_name": "Murat Acar",
+        "user_email": "murat.acar@example.com",
+        "ip_address": "192.168.1.9"
+    },
+    {
+        "user_id": 10,
+        "log_date": "2024-12-10 12:00:00",
+        "log_description": "Kullanıcı yeni bir cihazdan giriş yaptı.",
+        "user_name": "Seda Öztürk",
+        "user_email": "seda.ozturk@example.com",
+        "ip_address": "192.168.1.10"
+    },
+    {
+        "user_id": 11,
+        "log_date": "2024-12-14 13:30:00",
+        "log_description": "Kullanıcı çıkış yaptı.",
+        "user_name": "Cem Aksoy",
+        "user_email": "cem.aksoy@example.com",
+        "ip_address": "192.168.1.11"
+    },
+    {
+        "user_id": 12,
+        "log_date": "2024-12-04 17:45:00",
+        "log_description": "Kullanıcı profil fotoğrafını güncelledi.",
+        "user_name": "Nisa Sevgi",
+        "user_email": "nisa.sevgi@example.com",
+        "ip_address": "192.168.1.12"
+    },
+    {
+        "user_id": 13,
+        "log_date": "2024-12-07 19:00:00",
+        "log_description": "Kullanıcı başarıyla giriş yaptı.",
+        "user_name": "Kenan Doğan",
+        "user_email": "kenan.dogan@example.com",
+        "ip_address": "192.168.1.13"
+    },
+    {
+        "user_id": 14,
+        "log_date": "2024-12-13 08:00:00",
+        "log_description": "Kullanıcı şifresini değiştirdi.",
+        "user_name": "Furkan Yalçın",
+        "user_email": "furkan.yalcin@example.com",
+        "ip_address": "192.168.1.14"
+    },
+    {
+        "user_id": 15,
+        "log_date": "2024-12-02 14:00:00",
+        "log_description": "Kullanıcı başarıyla giriş yaptı.",
+        "user_name": "Deniz Kılıç",
+        "user_email": "deniz.kilic@example.com",
+        "ip_address": "192.168.1.15"
+    },
+    {
+        "user_id": 16,
+        "log_date": "2024-12-11 16:15:00",
+        "log_description": "Kullanıcı profil bilgilerini güncelledi.",
+        "user_name": "Büşra Yılmaz",
+        "user_email": "busra.yilmaz@example.com",
+        "ip_address": "192.168.1.16"
+    },
+    {
+        "user_id": 17,
+        "log_date": "2024-12-09 15:45:00",
+        "log_description": "Kullanıcı çıkış yaptı.",
+        "user_name": "Eda Polat",
+        "user_email": "eda.polat@example.com",
+        "ip_address": "192.168.1.17"
+    },
+    {
+        "user_id": 18,
+        "log_date": "2024-12-13 11:00:00",
+        "log_description": "Kullanıcı şifre sıfırlama talebinde bulundu.",
+        "user_name": "Merve Karaca",
+        "user_email": "merve.karaca@example.com",
+        "ip_address": "192.168.1.18"
+    },
+    {
+        "user_id": 19,
+        "log_date": "2024-12-03 12:45:00",
+        "log_description": "Kullanıcı e-posta adresini değiştirdi.",
+        "user_name": "Selin Başaran",
+        "user_email": "selin.basaran@example.com",
+        "ip_address": "192.168.1.19"
+    },
+    {
+        "user_id": 20,
+        "log_date": "2024-12-04 10:30:00",
+        "log_description": "Kullanıcı telefon numarasını güncelledi.",
+        "user_name": "Ozan Erdem",
+        "user_email": "ozan.erdem@example.com",
+        "ip_address": "192.168.1.20"
+    }
+]
