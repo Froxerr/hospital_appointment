@@ -29,7 +29,7 @@ Route::get('/get-districts', [LocationController::class, 'getDistrictsByCity']);
 Route::get('/get-hospital', [HospitalController::class, 'getHospitals']);
 Route::get('/get-doctor', [DoctorController::class, 'getDoctor']);
 Route::get('/get-doctor-schedule', [ScheduleController::class, 'getSchedule']);
-Route::get('/doctor-controller', [DoctorPanelController::class, 'index']);
+Route::get('/doctor-panel', [DoctorPanelController::class, 'index'])->name('doctor.panel');
 Route::get('/appointment-update', [AppointmentUpdateController::class, 'index']);
 Route::put('/appointment-update/{appointmentId}', [AppointmentUpdateController::class, 'update']);
 
@@ -38,6 +38,9 @@ Route::put('/appointment-update/{appointmentId}', [AppointmentUpdateController::
 Route::get('/admin', [AdminController::class, 'index']);
 Route::get('/admin/log', [AdminLogsController::class, 'index']);
 Route::get('/admin/appointment', [AdminAppointmentController::class, 'index']);
+Route::get('/admin/appointments/{id}', [AdminAppointmentController::class, 'show']);
+Route::put('/admin/appointments/{id}', [AdminAppointmentController::class, 'update']);
+Route::delete('/admin/appointments/{id}', [AdminAppointmentController::class, 'destroy']);
 Route::get('/admin/roles', [AdminRolesController::class, 'index']);
 Route::post('/admin/roles', [AdminRolesController::class, 'store']);
 

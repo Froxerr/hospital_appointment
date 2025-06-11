@@ -43,7 +43,7 @@
             @if(Auth::check())
                 <!-- RANDEVU BUTTON -->
                 @if($role_id == 1)
-                    <a class="cta-btn d-none d-sm-block" href="/doctor-controller">Randevular</a>
+                    <a class="cta-btn d-none d-sm-block" href="/doctor-panel">Randevular</a>
                 @else
                     <a class="cta-btn d-none d-sm-block" href="/appointment">Randevu Oluştur</a>
                     <a class="cta-btn d-none d-sm-block" href="/appointment-show" style="margin-left:15px">Randevularım</a>
