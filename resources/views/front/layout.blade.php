@@ -37,6 +37,9 @@
     <!-- Main CSS File -->
     <link href="{{asset("assets/css/main.css")}}" rel="stylesheet">
 
+
+    @vite('resources/css/app.css')
+
 </head>
 
 
@@ -67,6 +70,7 @@
 
 <!-- Main JS File -->
 <script src="{{asset("assets/js/main.js")}}"></script>
+@vite('resources/js/app.js')
 @yield('js')
 
 </body>

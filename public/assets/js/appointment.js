@@ -340,7 +340,7 @@ document.getElementById('doctor').addEventListener('change', function() {
 
     if (doctorName) {
         // Doktor bilgisi sağ tarafa ekleniyor
-        addOrUpdateDynamicInfo('doktor', 'Doktor: ', doctorName, 'fa-user-doctor');
+        addOrUpdateDynamicInfo('doktor', 'Doktor: ', doctorName, 'bi-person-vcard');
         removeDynamicInfo('saat');
         removeDynamicInfo('randevu-saat');
 
@@ -352,26 +352,25 @@ document.getElementById('district').addEventListener('change', function() {
 
     if (districtName) {
         // İlçe bilgisi sağ tarafa ekleniyor
-        addOrUpdateDynamicInfo('ilce', 'İlçe: ', districtName, 'bi-geo-alt');
+        addOrUpdateDynamicInfo('ilce', 'İlçe: ', districtName, 'bi-geo-alt-fill');
         removeDynamicInfo('saat');
         removeDynamicInfo('hastane');
         removeDynamicInfo('doktor');
         removeDynamicInfo('randevu-saat');
-
     }
 });
 
 const timeSelect = document.getElementById('date');
 timeSelect.addEventListener('change', function() {
-    const selectedTime = timeSelect.value;
-    addOrUpdateDynamicInfo('randevu-saat', 'Randevu Saati: ', selectedTime, 'bi-clock');
+    const selectedDate = this.value;
+    addOrUpdateDynamicInfo('randevu-saat', 'Randevu Tarihi: ', selectedDate, 'bi-calendar-event');
 
     removeDynamicInfo('saat');
 });
 
 handleSelectChange(document.getElementById('category'), 'bolum', 'Bölüm: ', 'bi-briefcase');
-handleSelectChange(document.getElementById('sub-category'), 'poliklinik', 'Poliklinik: ', 'fa-list');
-handleSelectChange(document.getElementById('city'), 'sehir', 'Şehir: ', 'bi-geo-alt');
+handleSelectChange(document.getElementById('sub-category'), 'poliklinik', 'Poliklinik: ', 'bi-journal-medical');
+handleSelectChange(document.getElementById('city'), 'sehir', 'Şehir: ', 'bi-building');
 
 // Genel seçici fonksiyon (data-name kullanımı ile)
 function handleSelectChange(selectElement, id, labelText, iconClass) {
@@ -387,8 +386,6 @@ function handleSelectChange(selectElement, id, labelText, iconClass) {
                 removeDynamicInfo('hastane');
                 removeDynamicInfo('doktor');
                 removeDynamicInfo('randevu-saat');
-                removeDynamicInfo('ilce');
-
             }
 
             // Eğer Bölüm değişirse, Bölüm'e ait bilgiyi temizle
@@ -399,14 +396,12 @@ function handleSelectChange(selectElement, id, labelText, iconClass) {
                 removeDynamicInfo('hastane');
                 removeDynamicInfo('doktor');
                 removeDynamicInfo('randevu-saat');
-                removeDynamicInfo('ilce');
             }
             if (id === 'sehir') {
                 removeDynamicInfo('saat');
                 removeDynamicInfo('hastane');
                 removeDynamicInfo('doktor');
                 removeDynamicInfo('randevu-saat');
-                removeDynamicInfo('ilce');
             }
             if (dataName) {
                 addOrUpdateDynamicInfo(id, labelText, dataName, iconClass);
@@ -422,42 +417,66 @@ function addOrUpdateDynamicInfo(id, labelText, valueText, iconClass) {
     let existingSection = document.getElementById(id);
 
     if (existingSection) {
-        const valueSpan = existingSection.querySelector('span');
-        if (valueSpan.textContent !== valueText) {
-            valueSpan.textContent = valueText || 'Seçiniz';
+        // Existing section found, update the value if it's different
+        const valueDiv = existingSection.querySelector('.fw-bold.fs-6'); // Find the div containing the value
+        if (valueDiv && valueDiv.textContent !== valueText) {
+            valueDiv.textContent = valueText || 'Seçiniz';
         }
     } else {
+        // Create a new section with modern Bootstrap styles
         const section = document.createElement('div');
-        section.classList.add('d-flex', 'align-items-center', 'mb-4', 'slide-in-right');
-        section.id = id;
+        // Use Bootstrap classes for layout and spacing
+        section.classList.add('d-flex', 'align-items-center', 'mb-3', 'slide-in-right');
+        section.id = id; // Set the unique ID
 
+        // Create the icon container with background and rounded shape
+        const iconContainer = document.createElement('div');
+        // Use Bootstrap classes for styling (example using primary color, adjust as needed)
+        iconContainer.classList.add('bg-primary', 'bg-opacity-10', 'text-primary', 'rounded-circle', 'p-2', 'me-3', 'd-flex', 'align-items-center', 'justify-content-center');
+        iconContainer.style.width = '48px'; // Set fixed size
+        iconContainer.style.height = '48px';
+
+        // Create the icon element using Bootstrap Icons classes
         const icon = document.createElement('i');
-        icon.classList.add('fa', iconClass);
-        icon.style.fontSize = '25px';
-        icon.style.marginRight = '10px';
+        // Assume iconClass already contains the Bootstrap Icon class like 'bi-building'
+        icon.classList.add('bi', iconClass, 'fs-3'); // Add Bootstrap Icon class and size
 
-        const info = document.createElement('div');
-        const label = document.createElement('strong');
-        label.textContent = labelText;
-        const value = document.createElement('span');
-        value.textContent = valueText || 'Seçiniz';
+        // Append icon to its container
+        iconContainer.appendChild(icon);
 
-        info.appendChild(label);
-        info.appendChild(value);
-        section.appendChild(icon);
-        section.appendChild(info);
+        // Create a div for label and value
+        const infoContent = document.createElement('div');
 
+        // Create label with Bootstrap classes
+        const label = document.createElement('div');
+        label.classList.add('text-muted', 'small');
+        label.textContent = labelText; // Set label text
+
+        // Create value with Bootstrap classes
+        const value = document.createElement('div');
+        value.classList.add('fw-bold', 'fs-6');
+        value.textContent = valueText || 'Seçiniz'; // Set value text or default
+
+        // Append label and value to info content div
+        infoContent.appendChild(label);
+        infoContent.appendChild(value);
+
+        // Append icon container and info content to the main section
+        section.appendChild(iconContainer);
+        section.appendChild(infoContent);
+
+        // Append the new section to the dynamic-info div
         dynamicInfo.appendChild(section);
     }
 }
 
-// Dinamik bilgiyi sağdan silen fonksiyon
+// Dinamik bilgiyi sağdan silen fonksiyon (stil değişikliklerinden etkilenmez)
 function removeDynamicInfo(id) {
     const dynamicInfo = document.getElementById('dynamic-info');
     const existingSection = document.getElementById(id);
 
     if (existingSection) {
-        // Burada, sadece ilgili id'yi taşıyan bölümü silmeliyiz
+        // Remove the section element with the given ID
         dynamicInfo.removeChild(existingSection);
     }
 }

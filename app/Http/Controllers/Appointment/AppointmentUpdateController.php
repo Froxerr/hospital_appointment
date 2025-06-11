@@ -139,21 +139,21 @@ class AppointmentUpdateController extends Controller
                 session()->flash('swal_message', 'Kapasite dolu. Randevu Güncellenemiyor.');
                 session()->flash('swal_type', 'error');
                 $this->logUserAction(Auth::user(), "Kapasite dolu. Randevu Güncellenemiyor.", "warning");
-                return redirect('/appointment');
+                return redirect('/appointment-show');
             }
         } else {
             // Kapasite bilgisi bulunamadıysa
             session()->flash('swal_message', 'Bu hastane için kapasite bilgisi bulunamadı.');
             session()->flash('swal_type', 'error');
             $this->logUserAction(Auth::user(), "Bu hastane için kapasite bilgisi bulunamadı.", "warning");
-            return redirect('/appointment');
+            return redirect('/appointment-show');
         }
 
         $this->logUserAction(Auth::user(), "Randevunuz Başarıyla Güncellenmiştir.");
         session()->flash("swal_message", "Randevunuz Başarıyla Güncellenmiştir.");
         session()->flash("swal_type", "success");
 
-        return redirect('/appointment');
+        return redirect('/appointment-show');
     }
     private function logUserAction($user, $description, $badge = 'info')
     {

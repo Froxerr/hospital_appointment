@@ -36,25 +36,48 @@ class AdminController extends Controller
         return view('admin.index',compact('rol_name','rol_id','occupancy_rate', 'getNewUser', 'getAppointmentCount', 'appointmentDatas'));
     }
 
-    public function calculateAllOccupancy() //Tüm doluluk oranı
-    { //(number_of_appointment / max_capacity) * 100
-        $capacities = AppointmentCapacity::all();
+    public function calculateAllOccupancy()
+    {
+        $now = now();
         $totalOccupancyRate = 0;
+        $activeHospitals = 0;
+
+        // Tüm hastaneleri ve kapasitelerini al
+        $capacities = AppointmentCapacity::all();
+        
+        \Log::info('Toplam hastane kapasitesi sayısı: ' . $capacities->count());
 
         foreach ($capacities as $capacity) {
-            $number_of_appointments = $capacity->number_of_appointment;
-            $max_capacity = $capacity->max_capacity;
+            // Her hastane için aktif randevu sayısını hesapla
+            $activeAppointments = HospitalAppointment::where('hospital_address_id', $capacity->appointment_hospital_id)
+                ->where('appointment_status', true)
+                ->where('appointment_date_start', '>=', $now)
+                ->count();
 
-            // Doluluk oranını (Yüzde cinsinden)
-            $occupancyRate = ($max_capacity > 0) ? ($number_of_appointments / $max_capacity) * 100 : 0;
+            \Log::info('Hastane ID: ' . $capacity->appointment_hospital_id . ' - Aktif Randevu: ' . $activeAppointments . ' - Max Kapasite: ' . $capacity->max_capacity);
 
-            // Toplam doluluk oranını güncelleyelim
-            $totalOccupancyRate += $occupancyRate;
+            if ($capacity->max_capacity > 0) {
+                // Doluluk oranını hesapla
+                $occupancyRate = ($activeAppointments / $capacity->max_capacity) * 100;
+                $totalOccupancyRate += $occupancyRate;
+                $activeHospitals++;
+
+                \Log::info('Hastane Doluluk Oranı: ' . $occupancyRate . '%');
+
+                // Kapasiteyi güncelle
+                $capacity->update([
+                    'number_of_appointment' => $activeAppointments,
+                    'available_capacity' => $capacity->max_capacity - $activeAppointments
+                ]);
+            }
         }
-        // Toplam doluluk oranını, hastane sayısına bölerek ortalama doluluk oranını
-        $averageOccupancyRate = count($capacities) > 0 ? $totalOccupancyRate / count($capacities) : 0;
 
-        return (int)$averageOccupancyRate;
+        // Ortalama doluluk oranını hesapla
+        $averageOccupancyRate = $activeHospitals > 0 ? $totalOccupancyRate / $activeHospitals : 0;
+
+        \Log::info('Toplam Doluluk: ' . $totalOccupancyRate . '% - Aktif Hastane: ' . $activeHospitals . ' - Ortalama: ' . $averageOccupancyRate . '%');
+
+        return number_format($averageOccupancyRate, 2); // İki ondalık basamak göster
     }
 
     public function getNewUser()
@@ -68,32 +91,41 @@ class AdminController extends Controller
 
     public function appointmentCount()
     {
-        $appointments = HospitalAppointment::where("appointment_status", '=', true)->count();
+        // Aktif (status=1) VE tarihi geçmemiş randevuları say
+        $appointments = HospitalAppointment::where("appointment_status", '=', 1)
+            ->where('appointment_date_start', '>=', Carbon::now())
+            ->count();
         return $appointments;
     }
 
     public function getAppointmens()
     {
         $appointments = HospitalAppointment::with(['patient', 'doctor', 'hospitalAddress', 'floor', 'specialty'])
-            //->latest() //en son eklenenleri | Bu fonksiyon hata veriyor çünkü created at üzerinden işlem yapıyor ama o bende yok
             ->orderBy('appointment_date_start', 'desc')
-            ->limit(10) //10 tane ile sınırla
-            ->get(); //hepsini getir
+            ->get();
 
         $appointmentData = [];
         $id = 1;
         foreach ($appointments as $appointment)
         {
-            $status = $appointment->appointment_status ? 'Onaylandı' : 'İptal';
             $appointment_date_start = Carbon::parse($appointment->appointment_date_start);
+            $is_past = $appointment_date_start->isPast();
+            
+            $status = match(true) {
+                $is_past => 'Tamamlandı',
+                $appointment->appointment_status === 1 => 'Onaylandı',
+                $appointment->appointment_status === 0 => 'İptal',
+                default => 'Beklemede'
+            };
+            
             $doctor_full_name = 'Dr. ' . $appointment->doctor->doctor_name . ' ' . $appointment->doctor->doctor_surname;
             $patient_full_name = $appointment->patient->patients_name . ' ' . $appointment->patient->patients_surname;
             $appointmentData[] = [
                 'id' => $id,
-                'patient_name' => $patient_full_name, // Hasta adı
-                'doctor_name' => $doctor_full_name, // Doktor adı
-                'appointment_date' => $appointment_date_start->format('Y-m-d H:i'), // Randevu tarihi
-                'status' => $status, // Randevu durumu
+                'patient_name' => $patient_full_name,
+                'doctor_name' => $doctor_full_name,
+                'appointment_date' => $appointment_date_start->format('Y-m-d H:i'),
+                'status' => $status,
             ];
             $id++;
         }
